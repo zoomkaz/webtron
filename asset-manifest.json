@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/webtron/static/css/main.83a55ad5.css",
+    "main.js": "/webtron/static/js/main.e4840e74.js",
+    "static/js/787.c1112931.chunk.js": "/webtron/static/js/787.c1112931.chunk.js",
+    "static/media/Group 1261152736.png": "/webtron/static/media/Group 1261152736.2edbf8c6cbcec819641f.png",
+    "static/media/developer 1.png": "/webtron/static/media/developer 1.4dc9491245e38cc67fcf.png",
+    "static/media/question mark.png": "/webtron/static/media/question mark.aef5ddc0a408bb4fd46a.png",
+    "static/media/p1Img.png": "/webtron/static/media/p1Img.556f0f8b13693ff5ed45.png",
+    "static/media/p3Img.png": "/webtron/static/media/p3Img.899a7352146703011538.png",
+    "static/media/p2Img.png": "/webtron/static/media/p2Img.1f7c4e7d3253aa55bdad.png",
+    "static/media/p1SmallImg.png": "/webtron/static/media/p1SmallImg.5a1d785e853321c0db19.png",
+    "static/media/p2SmallImg.png": "/webtron/static/media/p2SmallImg.58c5cfe1239ee8bc45af.png",
+    "static/media/deloper 4.png": "/webtron/static/media/deloper 4.0f0fa3e254efb685474f.png",
+    "static/media/p3SmallImg.png": "/webtron/static/media/p3SmallImg.1c16d239f887490b78ea.png",
+    "static/media/developer 2.png": "/webtron/static/media/developer 2.2c27f002b373cbd84e46.png",
+    "static/media/developer 3.png": "/webtron/static/media/developer 3.975ed30bb11cb94f1ee8.png",
+    "static/media/Robert Fox.png": "/webtron/static/media/Robert Fox.1b11305945f9edfaf3fd.png",
+    "static/media/Kristin Watson.png": "/webtron/static/media/Kristin Watson.21b90e0fd69465d39fe6.png",
+    "static/media/Wade Warren.png": "/webtron/static/media/Wade Warren.7c01e92e1073ca3ef39a.png",
+    "static/media/Subtract.png": "/webtron/static/media/Subtract.750e5f681ae9660a637a.png",
+    "static/media/React.png": "/webtron/static/media/React.7c39307ef91279f35109.png",
+    "static/media/Front-End (Stroke).png": "/webtron/static/media/Front-End (Stroke).9a804d27be7cd2ee47b8.png",
+    "index.html": "/webtron/index.html",
+    "main.83a55ad5.css.map": "/webtron/static/css/main.83a55ad5.css.map",
+    "main.e4840e74.js.map": "/webtron/static/js/main.e4840e74.js.map",
+    "787.c1112931.chunk.js.map": "/webtron/static/js/787.c1112931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.83a55ad5.css",
+    "static/js/main.e4840e74.js"
+  ]
+}
