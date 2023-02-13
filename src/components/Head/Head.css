@@ -1,0 +1,218 @@
+header {
+    /* margin-top: 20px; */
+    padding-top: 1em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titles {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.titles div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titles_head {
+    font-family: 'Clash Display', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 150px;
+    line-height: 120%;
+    color: #ffffff;
+    margin-right: -200px;
+    width: 780px;
+}
+
+.titles_par {
+    color: #ffffff;
+    width: 359px;
+    height: 66px;
+}
+
+.sec {
+    margin-top: -250px;
+    margin-bottom: -80px;
+    margin-right: -40px;
+}
+
+.sec h1 {
+    font-family: 'Clash Display', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 150px;
+    line-height: 120%;
+    color: #ffffff;
+    margin-right: 50px;
+}
+
+h3 {
+    font-family: 'Clash Display', sans-serif;
+    color: #ffffff;
+    display: flex;
+    align-items: flex-end;
+}
+
+button {
+    font-family: 'Inter', sans-serif;
+    padding: 24px 32px;
+    gap: 10px;
+    background: linear-gradient(180deg, #1FF2FF 0%, #27F9E5 52.66%, #2FFFCD 100%);
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #0A1482;
+    margin-right: 30px;
+}
+
+button:hover {
+    cursor: pointer;
+    color: #3B48D0;
+}
+
+button:active {
+    color: #ffffff;
+}
+
+.titles_hidden {
+    display: none;
+    z-index: -1;
+}
+
+/* For extremely small screen devices (595px and below) */
+@media (max-width: 700px) {
+    header {
+        padding: 10px 0;
+    }
+
+    .titles div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .titles_head {
+        font-family: 'Clash Display', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 120%;
+        color: #ffffff;
+        margin-right: 0px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: -20px;
+    }
+
+    .titles_hidden {
+        display: flex;
+        flex-wrap: wrap;
+        color: #ffffff;
+        z-index: 1;
+        gap: 20px;
+    }
+
+    .titles_par {
+        color: #ffffff;
+        width: 100%;
+        height: 66px;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .sec {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+    }
+
+    .titles {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sec button {
+        width: 314px;
+        font-family: 'Inter', sans-serif;
+        padding: 14px 22px;
+        gap: 10px;
+        background: linear-gradient(180deg, #1FF2FF 0%, #27F9E5 52.66%, #2FFFCD 100%);
+        border-radius: 8px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 20px;
+        text-align: center;
+        color: #0A1482;
+        margin-right: 0px;
+    }
+
+    .sec h1 {
+        display: none;
+    }
+
+    .titles h3 {
+        display: none;
+    }
+}
+
+/* Medium screen devices (768px and above) */
+@media (min-width: 768px) and (max-width: 1439px) {
+    header {
+        padding: 10px 10px;
+    }
+
+    .titles {
+        padding: 10px;
+    }
+
+    .titles_head {
+        font-family: 'Clash Display', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 130px;
+        line-height: 120%;
+        color: #ffffff;
+        margin-right: -200px;
+        width: 780px;
+        margin-bottom: 0px;
+    }
+
+
+    .sec {
+        margin-top: -100px;
+        margin-bottom: -80px;
+        margin-right: -40px;
+    }
+
+    .sec h1 {
+        font-size: 100px;
+        margin-right: 50px;
+    }
+
+    .titles_par {
+        display: none;
+    }
+
+    .titles h3 {
+        margin-top: 30px;
+    }
+
+    .titles_hidden {
+        display: none;
+    }
+}
+
+/* Big screen devices (889px and above) */
+@media only screen and (min-width: 889px) {}
+
+/* Extra big screen devices (1200px and above) */
+@media only screen and (min-width: 1200px) {}

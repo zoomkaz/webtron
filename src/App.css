@@ -1,38 +1,41 @@
+#root {
+  background: #0C102D;
+  background-image: url('./img/Group\ 1261152736.png');
+  background-repeat: no-repeat;
+  background-position: center top;
+  overflow: hidden;
+}
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
 .App {
-  text-align: center;
+  max-width: 1222px;
+  margin: auto;
+  height: 100%;
+  position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* For extremely small screen devices (595px and below) */
+@media only screen and (max-width: 595px) {
+  .App {
+    max-width: 315px;
+    margin: 0 auto;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+/* Small screen devices (600px and above) */
+@media only screen and (min-width: 600px) {}
 
-.App-link {
-  color: #61dafb;
-}
+/* Medium screen devices (768px and above) */
+@media only screen and (min-width: 768px) {}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* Big screen devices (889px and above) */
+@media only screen and (min-width: 889px) {}
+
+/* Extra big screen devices (1200px and above) */
+@media only screen and (min-width: 1200px) {}

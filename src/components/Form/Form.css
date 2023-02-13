@@ -1,0 +1,208 @@
+.form {
+    background: rgba(255, 255, 255, 0.05);
+    width: 100%;
+    height: 700px;
+    margin-top: 180px;
+    border: 2px solid rgba(21, 191, 253, 0.7);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_title h2 {
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0 0 24px 0;
+}
+
+.contact_title p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    width: 100%;
+    color: #FFFFFF;
+    margin: 0 0 10px 0;
+}
+
+.contact_container {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 500px;
+    margin-bottom: 4px;
+    padding: 24px;
+    border-radius: 8px;
+    border: 2px solid rgba(156, 55, 253, 0.7);
+    background: rgba(255, 255, 255, 0.05);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #A2CBFB;
+    transition: all 0.2s linear;
+}
+
+input:focus {
+    outline: none;
+    transform: scale(1.05);
+}
+
+input::-webkit-input-placeholder {
+    text-indent: 0px;
+    transition: text-indent 0.3s ease;
+    color: #A2CBFB;
+}
+
+input::-moz-placeholder {
+    text-indent: 0px;
+    transition: text-indent 0.3s ease;
+    color: #A2CBFB;
+}
+
+input:-moz-placeholder {
+    text-indent: 0px;
+    transition: text-indent 0.3s ease;
+    color: #A2CBFB;
+}
+
+input:-ms-input-placeholder {
+    text-indent: 0px;
+    transition: text-indent 0.3s ease;
+    color: #A2CBFB;
+}
+
+input:focus::-webkit-input-placeholder {
+    text-indent: 500px;
+    transition: text-indent 0.3s ease;
+}
+
+input:focus::-moz-placeholder {
+    text-indent: 500px;
+    transition: text-indent 0.3s ease;
+}
+
+input:focus:-moz-placeholder {
+    text-indent: 500px;
+    transition: text-indent 0.3s ease;
+}
+
+input:focus:-ms-input-placeholder {
+    text-indent: 500px;
+    transition: text-indent 0.3s ease;
+}
+
+.error {
+    margin-bottom: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+button {
+    margin-top: 16px;
+    width: 100%;
+    border: none;
+}
+
+.form_data {
+    display: none;
+}
+
+.check_data {
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.check_link {
+    color: darkcyan;
+}
+
+@media (max-width: 576px) {
+    .form {
+        background: rgba(255, 255, 255, 0.05);
+        width: 100%;
+        height: 570px;
+        margin-top: 180px;
+        border: 2px solid rgba(21, 191, 253, 0.7);
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact_title h2 {
+        font-size: 50px;
+        margin: 0px 0 24px 0;
+    }
+
+    .contact_title p {
+        font-size: 12px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    input {
+        width: 250px;
+        margin-bottom: 4px;
+        padding: 24px;
+        border-radius: 8px;
+        border: 2px solid rgba(156, 55, 253, 0.7);
+        background: rgba(255, 255, 255, 0.05);
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #A2CBFB;
+        transition: all 0.2s linear;
+    }
+
+    button {
+        margin-top: 16px;
+        margin-right: 0px;
+        width: 100%;
+        border: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1439px) {
+    .form {
+        background: rgba(255, 255, 255, 0.05);
+        width: 96%;
+        margin: 0 auto;
+        height: 620px;
+        margin-top: 180px;
+        border: 2px solid rgba(21, 191, 253, 0.7);
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

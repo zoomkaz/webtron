@@ -1,0 +1,187 @@
+.about {
+    margin-top: 250px;
+}
+
+
+.title {
+    text-align: center;
+    font-family: 'Clash Display', 'sans-serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 20px;
+}
+
+.about_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mentors__title-line {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mentors_title {
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.lines {
+    margin-top: -30px;
+    background: url('../../img/line.png');
+    width: 394px;
+    height: 156.59px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    width: 188px;
+}
+
+.card:nth-child(2) {
+    margin-top: -100px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.ellipse {
+    background: url('../../img/Ellipse\ 132\ \(Stroke\).png');
+    width: 188px;
+    height: 188px;
+    overflow: hidden;
+    border-radius: 100px;
+    margin-bottom: 5px;
+}
+
+.ellipse img {
+    border-radius: 100px;
+    margin: 2px 0 0 2px;
+}
+
+.card h4 {
+    margin-bottom: -10px;
+    height: 29px;
+    font-family: 'Clash Display', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.card p {
+    width: 185px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.mentors_disc p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    width: 486px;
+    height: 88px;
+}
+
+.front-back {
+    background: url('../../img/Front-End\ \(Stroke\).png');
+    width: 748px;
+    height: 186px;
+    margin-left: 100px;
+    margin-right: -200px;
+    margin-top: 82px;
+}
+
+
+
+@media (max-width: 576px) {
+    .title {
+        font-size: 60px;
+    }
+
+    .about_container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .lines {
+        display: none;
+    }
+
+    .cards {
+        flex-wrap: wrap;
+    }
+
+
+    .card:nth-child(2) {
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .mentors_disc p {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #FFFFFF;
+        width: 100%;
+        height: 88px;
+        text-align: center;
+    }
+
+    .front-back {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1439px) {
+    .about_container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .mentors_disc p {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #FFFFFF;
+        width: 95%;
+        margin: 30px auto 0 auto;
+        height: 88px;
+        text-align: center;
+    }
+}
